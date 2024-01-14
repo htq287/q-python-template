@@ -1,10 +1,30 @@
-#Getting Started
+# Getting Started
 🛠 An useful project structure for creating effectively Python applications
 
-#Usage
-- Clone repository git clone https://github.com/htq287/q-python-template.git
+# Usage
+1. Clone repository git clone https://github.com/htq287/q-python-template.git
+2. `cd` into `q-python-template`
+3. To create a virtual environment, go to your project’s directory and run the following command. This will create a new virtual environment in a local folder named `.venv`:   
+`python3 -m venv .venv`
+4. Activate a virtual environment
+  
+    `source .venv/bin/activate`
+  
+    To confirm the virtual environment is activated, check the location of your Python interpreter:
 
-#License
+    `which python`
+
+    To deactivate a virtual environment
+
+    `deactivate`
+5. Install packages
+
+    `python3 -m pip install -r requirements.txt`
+
+# Refs
+- https://packaging.python.org/en/latest/guides/installing-using-pip-and-virtual-environments/
+
+# License
 The MIT License (MIT)
 
 Copyright (C) 2024, Hung Q. Truong. https://htq287.com. All rights reserved.

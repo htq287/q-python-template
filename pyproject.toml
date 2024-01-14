@@ -12,6 +12,11 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
+dependencies = [
+  "userpath~=1.7",
+  "virtualenv>=20.16.2",
+  "zstandard<1",
+]
 
 [project.urls]
 Homepage = "https://github.com/htq287/q-python-template"
